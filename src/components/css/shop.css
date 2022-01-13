@@ -1,0 +1,38 @@
+.shop {
+  margin: 0 100px;
+  display: flex;
+  gap: 20px;
+}
+
+.shop .pic {
+  border-radius: 20px;
+  overflow: hidden;
+  height: 250px;
+  width: 300px;
+  position: relative;
+}
+
+.shop .pic img {
+  object-fit: cover;
+  height: 100%;
+  width: 100%;
+}
+
+.shop .pic .title {
+  position: absolute;
+  top: 25px;
+  left: 30px;
+  font-weight: bold;
+  color: #132c48;
+}
+
+.shop .pic .link {
+  position: absolute;
+  bottom: 20px;
+  right: 20px;
+  background-color: #fff;
+  border-radius: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: #132c48;
+}

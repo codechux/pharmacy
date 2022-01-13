@@ -1,0 +1,76 @@
+.bread-crumbs {
+  margin: 50px 100px 0;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.bread-crumbs h1 {
+  font-weight: bolder;
+  font-size: 55px;
+  font-style: italic;
+  font-family: serif;
+  padding-right: 50px;
+}
+
+.bread-crumbs .benefits ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+  padding: 30px 0;
+}
+
+.bread-crumbs .consult {
+  display: flex;
+  gap: 30px;
+}
+
+.bread-crumbs .consult button:not(:last-child) {
+  padding: 12px 20px;
+  border-radius: 20px;
+  border: none;
+  background-color: #338f58;
+  color: #f8f9fb;
+  font-weight: bold;
+}
+
+.bread-crumbs .consult button:not(:last-child):hover {
+  background-color: green;
+  cursor: pointer;
+}
+
+.bread-crumbs .consult button:last-child {
+  padding: 12px 30px;
+  background-color: transparent;
+  border: 1px solid #338f58;
+  border-radius: 20px;
+  color: #338f58;
+  transition: 0.5s;
+}
+
+.bread-crumbs .consult button:last-child:hover {
+  background-color: #338f58;
+  color: #f8f9fb;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.bread-crumbs .certify {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  padding: 50px 0;
+}
+
+.bread-crumbs .note {
+  font-size: 12px;
+  color: #6d767d;
+  text-align: left;
+  padding: 0 100px 0 0;
+}
+
+.bread-crumbs .hero img {
+  width: 100%;
+  height: 100%;
+}
